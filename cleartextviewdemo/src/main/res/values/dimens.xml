@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="navigation_bar_height">51dp</dimen>
+    <dimen name="personal_page_padding">40dp</dimen>
+    <dimen name="feedback_item_margin">20dp</dimen>
+    <dimen name="feedback_item_small_margin">10dp</dimen>
+    <dimen name="personal_info_tilte_height">40dp</dimen>
+    <dimen name="btn_layout_height">40dp</dimen>
+    <dimen name="portrait_length">96dp</dimen>
+    <dimen name="router_detail_item_height">40dp</dimen>
+    <!--<dimen name="imageview_portrait_border">96dp</dimen>-->
+    <dimen name="h_split_line">0.5dp</dimen>
+    <dimen name="padding_personal_center">110dp</dimen>
+    <dimen name="margin_start_main_list">30dp</dimen>
+    <dimen name="width_input_prefix">80dp</dimen>
+    <dimen name="login_bottom_link">24dp</dimen>
+    <dimen name="camera_button_margin_top">50dp</dimen>
+    <dimen name="message_center_item_title">14sp</dimen>
+    <dimen name="message_center_item_content">12sp</dimen>
+    <dimen name="message_center_item_checkbox_leftmargin">19dp</dimen>
+    <dimen name="message_center_item_checkbox_rightmargin">24dp</dimen>
+    <dimen name="message_center_item_relalayout_leftmargin">22dp</dimen>
+</resources>
