@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_stop;
     private Button btn_upload;
     private Button btn_launch;
+    private Button btn_clear;
     private Button btn_exit;
     private Bundle bundle;
     private Intent intent;
@@ -25,11 +26,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_upload = (Button) findViewById(R.id.btn_upload);
         btn_launch = (Button) findViewById(R.id.btn_launch);
         btn_exit = (Button) findViewById(R.id.btn_exit);
+        btn_clear = (Button) findViewById(R.id.btn_clear);
         btn_start.setOnClickListener(this);
         btn_stop.setOnClickListener(this);
         btn_upload.setOnClickListener(this);
         btn_launch.setOnClickListener(this);
         btn_exit.setOnClickListener(this);
+        btn_clear.setOnClickListener(this);
 
         intent = new Intent("com.zailingtech.yunti.CAPTURE_ACTION_START");
         bundle = new Bundle();
@@ -40,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch(view.getId()) {
             case R.id.btn_launch:
+                bundle.putString("action", "start");
                 startActivity(intent);
                 return;
             case R.id.btn_start:
@@ -50,6 +54,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_upload:
                 bundle.putString("action", "upload");
+                break;
+            case R.id.btn_clear:
+                bundle.putString("action", "clear");
                 break;
             case R.id.btn_exit:
                 bundle.putString("action", "exit");
