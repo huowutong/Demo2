@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_clear.setOnClickListener(this);
 
         intent = new Intent("com.zailingtech.yunti.CAPTURE_ACTION_START");
+        intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         bundle = new Bundle();
         bundle.putString("ID", "215552");
     }
@@ -43,9 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch(view.getId()) {
             case R.id.btn_launch:
+//                startActivity(intent);
+//                SystemClock.sleep(1000); //等待一段时间等待抓包APP完全启动并注册好广播监听
                 bundle.putString("action", "start");
-                startActivity(intent);
-                return;
+                break;
             case R.id.btn_start:
                 bundle.putString("action", "start");
                 break;
