@@ -15,35 +15,55 @@
         android:id="@+id/btn_launch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="启动抓包APP" />
+        android:text="启动抓包APP"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="开始抓包" />
+        android:text="开始抓包"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="停止抓包" />
+        android:text="停止抓包"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_upload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="上传数据包" />
+        android:text="上传数据包"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="清空数据包" />
+        android:text="清空数据包"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_start_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="检查CPU内存状况"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_stop_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止检查CPU内存状况"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="退出抓包APP" />
+        android:text="退出抓包APP"
+        android:textSize="24sp" />
 </LinearLayout>
